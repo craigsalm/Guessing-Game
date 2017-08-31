@@ -1,16 +1,18 @@
-<style>
-.center container {
-  text-align: center;
+.center {
+    text-align: center;
 }
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 img {
     display: inline;
     width: 200px;
     height: 100px;
 }
+
 #footer {
     width: 100%;
     border-top: solid 2px black;
@@ -18,12 +20,48 @@ img {
     position: fixed;
     bottom: 0;
 }
-html {
-    box-sizing: 'border-box';
+
+.guess {
+    display: inline;
+    font-size: 60px;
+    border: 1px solid black; 
+    padding: 0 25px;
+    border-radius: 10%;
+    background-color: white;
 }
-#parent-input {
+
+#player-input {
+    border-radius: 50%;
     width: 160px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
+    height: 160px;
+    font-size: 60px;
+}
+
+#submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+#input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+
+body {
+    background-image: url('binary.jpg');
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px darkgray
+}
+
+#app {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256, 256, 256, 0.5)
+}
